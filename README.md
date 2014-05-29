@@ -1,4 +1,4 @@
-bugfree-octo-wallhack
+Install HackSpace
 =====================
 
 HackSpace Installer
