@@ -45,7 +45,7 @@
   /* An Example of MySQL Configuration
    "dbType" : "mysql",
    "dbSettings" : {
-                    "user"    : "ehterpaduser", 
+                    "user"    : "etherpaduser", 
                     "host"    : "localhost", 
                     "password": "admin", 
                     "database": "etherpaddb"
@@ -91,10 +91,9 @@
   
   /* Users for basic authentication. is_admin = true gives access to /admin.
      If you do not uncomment this, /admin will not be available! */
-  /*
   "users": {
     "admin": {
-      "password": "changeme1",
+      "password": "admin",
       "is_admin": true
     },
     "user": {
@@ -102,7 +101,7 @@
       "is_admin": false
     }
   },
-  */
+  
 
   // restrict socket.io transport methods
   "socketTransportProtocols" : ["xhr-polling", "jsonp-polling", "htmlfile"],
