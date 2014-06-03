@@ -1,0 +1,16 @@
+sudo -u postgres createuser
+
+    Enter name of role to add: canvas
+    Shall the new role be a superuser? (y/n) n
+    Shall the new role be allowed to create databases? (y/n) n
+    Shall the new role be allowed to create more new roles? (y/n) n
+
+
+sudo -u postgres createdb canvas_production -O canvas
+sudo -u postgres createdb canvas_queue_production -O canvas
+sudo -u postgres psql
+
+    alter user canvas with encrypted password 'Password';
+    grant all privileges on database canvas_production to canvas;
+    grant all privileges on database canvas_queue_production to canvas;
+    \q
