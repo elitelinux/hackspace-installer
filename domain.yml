@@ -1,0 +1,3 @@
+production:
+domain: "www.example.com"
+ssl: true
