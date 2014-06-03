@@ -1,4 +1,3 @@
 production:
-servers:
-
-    localhost
+  servers:
+    - redis://localhost
