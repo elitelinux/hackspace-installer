@@ -1,3 +1,10 @@
+test:
+  domain: localhost
+
+development:
+  domain: "localhost:3000"
+  
 production:
-domain: "www.example.com"
-ssl: true
+   domain: "localhost:3000"
+   ssl: true
+   files_domain: "localhost:3000"
