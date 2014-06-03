@@ -1,0 +1,6 @@
+Google Docs
+
+    Register your instance of Canvas with Google.
+    https://www.google.com/accounts/ManageDomains
+    Browse to the Google Docs plugin settings at http://<your-canvas-domain>/plugins/google_docs
+    Follow the instructions there.
