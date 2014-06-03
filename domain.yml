@@ -1,5 +1,5 @@
 test:
-  domain: localhost
+  domain: "localhost:3000"
 
 development:
   domain: "localhost:3000"
