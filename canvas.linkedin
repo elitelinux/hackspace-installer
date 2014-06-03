@@ -1,0 +1,7 @@
+Linked In
+
+    Set up a developer accounts with LinkedIn
+    https://www.linkedin.com/secure/developer
+    and get your developer API key and secret key. You'll need to fill out the details of your integration. You don't need to enter an OAuth Redirect URL.
+    Browse to the LinkedIn plugin settings at http://<your-canvas-domain>/plugins/linked_in
+    Follow the instructions there.
