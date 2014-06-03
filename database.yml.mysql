@@ -1,0 +1,17 @@
+#/opt/canvas/config/database.yml
+production:
+adapter: mysql2
+encoding: utf8
+database: canvas_production
+host: localhost
+username: canvas
+password: password database_production
+timeout: 5000
+queue:
+adapter: mysql2
+encoding: utf8
+database: canvas_queue_production
+host: localhost
+username: canvas
+password: password_database_queue
+timeout: 5000
