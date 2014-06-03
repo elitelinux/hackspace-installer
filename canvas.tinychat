@@ -1,0 +1,6 @@
+TinyChat
+
+    Set up an account with TinyChat and get a developer API key.
+    http://tinychat.com/developer/dashboard/
+    Browse to the Tinychat plugin settings at http://<your-canvas-domain>/plugins/tinychat
+    Follow the instructions there.
