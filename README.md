@@ -8,6 +8,8 @@ https://help.ubuntu.com/community/Etherpad-liteInstallation
 
 https://github.com/ether/etherpad-lite-jquery-plugin
 
+https://github.com/bit/ep_webrtc
+
 https://groups.google.com/forum/#!topic/canvas-lms-users/anx3Onr9zx8
 
 http://sharadchhetri.com/2014/05/22/install-owncloud-6-ubuntu-14-04-lts-server/
