@@ -1,0 +1,18 @@
+Install PostgreSQL using the apt-get command in gnome-terminal:
+1
+	
+sudo apt-get install postgresql libpq-dev
+After installation is complete, change user to the PostgreSQL user:
+1
+	
+sudo su - postgres
+You are now working as the PostgreSQL user. Now, let’s change your database password to be more robust. In this example, I’m setting the password as “s0meth1ng”:
+1
+2
+3
+4
+	
+~$: psql -d postgres -U postgres
+psql (9.1.3) Type "help" for help.
+postgres=# alter user postgres with password 's0meth1ng'; ALTER ROLE
+postgres=# q
