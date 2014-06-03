@@ -1,0 +1,11 @@
+production:
+address: "smtp.gmail.com"
+tls: true
+enable_starttls_auto: true
+port: "587"
+user_name: "username@gmail.com"
+password: "password_email"
+authentication: "plain"
+domain: "domain.yourcanvas.com"
+outgoing_address: "username@gmail.com"
+default_name: "LMS-Admin"
