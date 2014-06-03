@@ -1,0 +1,8 @@
+Twitter
+
+    Register your instance of Canvas with Twitter.
+    http://dev.twitter.com/apps/new
+    You'll need to specify the Registered OAuth Callback URL as http://<your-canvas-domain>/oauth_success?service=twitter.
+    Make a note of your consumer key and consumer secret.
+    Browse to the Twitter plugin settings at http://<your-canvas-domain>/plugins/twitter
+    Follow the instructions there.
