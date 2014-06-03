@@ -1,0 +1,46 @@
+development:
+  address: "localhost"
+  port: "25"
+  user_name: "canvasuser"
+  password: "canvas"
+  authentication: "plain" # plain, login, or cram_md5
+  domain: "localhost"
+  outgoing_address: "canvasuser@localhost"
+  default_name: "Canvas user"
+  delivery_method: "sendmail"
+
+
+# or to use sendmail --
+#
+# development:
+# delivery_method: "sendmail"
+
+test:
+  delivery_method: "test"
+
+production:
+  address: "smtp.gmail.com"
+  port: "587"
+  user_name: "elite.linux@gmail.com"
+  password: "gmail-password"
+  authentication: "plain" # plain, login, or cram_md5
+  domain: "gmail.com"
+  outgoing_address: "elite.linux@gmail.com"
+  default_name: "Canvas - Juan Fernando Villa"
+  tls: true
+  
+multiple_inboxes:
+  address: "smtp.gmail.com"
+  port: "587"
+  user_name: "elite.linux@gmail.com"
+  password: "gmail-password"
+  authentication: "plain" # plain, login, or cram_md5
+  domain: "gmail.com"
+  outgoing_address: "elite.linux@gmail.com"
+  default_name: "Canvas - Juan Fernando Villa"
+  tls: true
+  reply_to_addresses:
+  - "elite.linux1@gmail.com"
+  - "elite.linux2@gmail.com"
+  - "elite.linux3@gmail.com"
+  - "elite.linux4@gmail.com"
