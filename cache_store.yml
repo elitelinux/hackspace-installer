@@ -1,0 +1,4 @@
+#/opt/canvas/config/cache_store.yml
+production:
+cache_store: redis_store
+database: 0
