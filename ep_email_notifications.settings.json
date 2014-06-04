@@ -1,0 +1,14 @@
+ "ep_email_notifications" : {
+    "panelDisplayLocation": { // Where you want to have the subscription panel - Adding this to break the plugin?
+      "mysettings": "true",  // In the "mysettings" menu
+      "popup": "true"        // A popup that pop in the bottom right corner of the pad after 10 seconds
+    },
+    "checkFrequency": "6000", // checkFrequency = How frequently(milliseconds) to check for pad updates -- Move me to the settings file
+    "staleTime": "30000",  // staleTime = How stale(milliseconds) does a pad need to be before notifying subscribers?  Move me to settings
+    "fromName": "Etherpad SETTINGS FILE!",
+    "fromEmail": "pad@etherpad.org",
+    "urlToPads": "http://beta.etherpad.org/p/", // urlToPads = The URL to your pads note the trailing /
+    "emailServer": { // See https://github.com/eleith/emailjs for settings
+      "host": "127.0.0.1"
+    }
+  }
