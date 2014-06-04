@@ -28,4 +28,4 @@ https://github.com/instructure/canvas-lms/wiki/Canvas-Integration
 
 https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite
 
-
+https://github.com/ether/etherpad-lite/wiki
